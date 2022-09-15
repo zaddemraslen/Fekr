@@ -1,0 +1,100 @@
+.post
+{
+    width: 100%;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68); 
+    box-shadow: 0px 0px 16px -8px rgba(0,0,0,0.68);
+    margin: 30px 0;
+}
+
+.postwrapper
+{
+    padding: 10px;
+}
+
+.postTop
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.postTopleft
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.posttoright
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.postUsername
+{
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 10px;
+}
+
+.postDate
+{
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(84, 84, 88);
+}
+
+.postcenter
+{
+    margin: 15px 0;
+    margin-top:0;
+}
+
+.postImg
+{
+    margin-top: 20px;
+    max-height: 500px;
+    object-fit: contain;
+    width: 100%;
+}
+
+.postbottom
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.postbottomLeft
+{
+    display: flex;
+    align-items: center;
+}
+
+.reaction
+{
+    width: 24;
+    height: 24px;
+    margin-right: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.postReactionCounter
+{
+    font-size: 15px;
+}
+
+.postCommentText
+{
+    cursor: pointer;
+    border-bottom : 1px dashed gray;  
+    font-size: 15px;
+}

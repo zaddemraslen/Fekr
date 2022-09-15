@@ -1,0 +1,12 @@
+.homeContainer {
+  display: flex;
+  width: 100%;
+}
+
+.homeContainer > .sidebar {
+  order: -1;
+}
+
+.homeContainer .feed[write-post="true"] ~ * {
+  filter: blur(10px);
+}

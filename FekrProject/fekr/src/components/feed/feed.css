@@ -1,0 +1,12 @@
+.feed {
+  flex: 5.5;
+  z-index: 100;
+}
+
+.feed[write-post="true"] .post {
+  filter: blur(10px);
+}
+
+.feedwrapper {
+  padding: 20px;
+}

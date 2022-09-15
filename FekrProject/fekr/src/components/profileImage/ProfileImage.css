@@ -1,0 +1,46 @@
+.Profile-Image-Component{
+  display: flex;
+  margin-bottom: 10px;
+  
+}
+
+.Profile-Image-Component > .profile-photo {
+  border: 1px solid transparent;
+  border-radius: 50%;
+  position: relative;
+  background-repeat: no-repeat, no-repeat,no-repeat;
+  background-size: cover, cover,cover;
+  background-position: center, center,center;
+}
+
+.profile-title{
+  color : rgb(9, 68, 91);
+  font-family: 'Roboto';
+  font-size: 30%;
+  display: flex;
+  align-items: center;
+}
+
+.Profile-Image-Component > .profile-photo > .status {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: 85.36%;
+  top: 14.64%;
+ border-radius: 50%;
+}
+
+.Profile-Image-Component > .profile-photo > .status[user-status="on"] {
+  background-color: green;
+  border: 2px solid rgb(192, 251, 177) ;
+}
+
+.Profile-Image-Component > .profile-photo > .status[user-status="off"] {
+  background-color: gray;
+  border: 2px solid rgb(237, 241, 235) ;
+}
+
+.Profile-Image-Component > .profile-photo > .status[user-status="busy"] {
+  background-color: red;
+  border: 2px solid rgb(239, 196, 196) ;
+}
